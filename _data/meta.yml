@@ -4,13 +4,13 @@
 
 series:
   # The name of the organisation or entity that owns this series
-  organisation: "My Organisation"
+  organisation: "Tester Center"
   # A live web address for the organisation
   url: "http://example.com/"
   # The default contact email address
   email: "name@example.com"
   # The name of the series of books in this folder.
-  name: "My Series"
+  name: "Testing"
   # A one-liner about this series. Useful for Open Graph metadata.
   description: "A new series of books."
   # An image in /assets that stands for the series
@@ -31,12 +31,12 @@ series:
 
 works:
   - directory: "book"
-    title: "The Title"
+    title: "Test Title"
     subtitle: ""
-    creator: "A. N. Author" # E.g. the author
+    creator: "Mrs Tester" # E.g. the author
     contributor: "" # E.g. other contributors
     subject: "Fiction" # E.g. BISAC terms (https://www.bisg.org/bisac/bisac-subject-codes) or BIC (http://editeur.dyndns.org/bic_categories)
-    description: "This is my awesome book." # E.g. the blurb
+    description: "This is a test book." # E.g. the blurb
     publisher: "My Brand" # E.g. the publisher, imprint or brand name
     publisher-url: ""
     date: "2015-12-31" # YYYY-MM-DD e.g. publication date
@@ -54,7 +54,7 @@ works:
         date: "2016-05-07" # YYYY-MM-DD e.g. publication or creation date
         format: "Print" # e.g. Paperback, Digital download, Digital online
         identifier: "" # e.g. ISBN or UUID
-        image: "cover.jpg"
+        image: "prettypic.jpg"
         files:
           - "0-1-titlepage"
           - "0-2-copyright"
@@ -76,7 +76,7 @@ works:
         date: "2016-05-07" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital online" # e.g. Paperback, Digital download, Digital online
         identifier: "" # e.g. ISBN or UUID
-        image: "cover.jpg"
+        image: "prettypic.jpg"
         files: # To add a file to web navigation, give a file a value, e.g. 0-4-preface: "Preface"
           - "index": Cover
           - "0-1-titlepage"
